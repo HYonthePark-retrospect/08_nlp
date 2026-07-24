@@ -1,0 +1,33 @@
+# 파이썬 가상 환경 폴더
+.venv/
+
+# 파이썬 캐시 폴더(임시 폴더)
+__pycache__/
+
+# 주피터 노트북 자동 저장 폴더
+.ipynb_checkpoints/
+
+# Mac os Finder 폴더 보기 설정이 저장된 파일
+.DS_Store
+
+# .py 파일 실행 시 생성되는 컴파일 캐시 파일
+*.pyc
+
+# 파이참 설정
+.idea
+
+# dotenv 무시 설정
+.env
+
+models/
+catboost_info/
+
+# torchvision이 자동으로 다운로드하는 데이터셋
+01_basic/data/MNIST/
+02_cnn/data/FashionMNIST/
+
+# CNN 예제에서 자동 다운로드되는 데이터와 사전학습 가중치
+02_cnn/data/cifar-10-batches-py/
+02_cnn/data/checkpoints/
+02_cnn/data/pretrained_data/*.mat
+02_cnn/data/pretrained_data/*.tar.gz
